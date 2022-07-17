@@ -1,0 +1,28 @@
+/* global style */
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top players style  */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+}
+
+.player h3 {
+    margin-left: 10px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
